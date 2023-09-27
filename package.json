@@ -1,0 +1,19 @@
+{
+  "name": "bnp-fs-e1-c1",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de NodeJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cdrinconm/BNP-FS-E1-C1.git"
+  },
+  "author": "Daniel Rincon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdrinconm/BNP-FS-E1-C1/issues"
+  },
+  "homepage": "https://github.com/cdrinconm/BNP-FS-E1-C1#readme"
+}
