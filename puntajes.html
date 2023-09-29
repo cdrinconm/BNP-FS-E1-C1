@@ -45,19 +45,202 @@
             </ul>
         </nav>
     </div>
-    <div class="container">
-        <h2>Puntajes</h2>
-        <br />
-        <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt porta convallis. Pellentesque
-            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum id molestie
-            enim, in luctus ex. Pellentesque lorem libero, volutpat eget tempor id, consectetur nec dolor. Aliquam at
-            varius ligula, nec fermentum nunc. Nam tincidunt molestie sapien id placerat. Praesent vitae ipsum sed ex
-            sollicitudin dictum. Ut iaculis nunc non mauris pharetra posuere. Nulla a dui in justo viverra ullamcorper.
-            Nullam elementum efficitur odio, et fermentum ligula tincidunt eu. Sed sodales ullamcorper tellus nec
-            blandit. Integer et venenatis nulla. Aliquam eu sagittis nisi, sed sagittis nisi. Fusce scelerisque neque
-            quis dapibus tincidunt.
-        </span>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#puntajes" role="tab" aria-controls="home"
+                aria-selected="true">Puntajes</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#ultimas" role="tab" aria-controls="profile"
+                aria-selected="false">Ultimas</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#masvistas" role="tab" aria-controls="contact"
+                aria-selected="false">Mas Vistas</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="puntajes" role="tabpanel" aria-labelledby="home-tab">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <th>
+                            Pelicula
+                        </th>
+                        <th>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                        </th>
+                        <th>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                        </th>
+                        <th>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                        </th>
+                        <th>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                        </th>
+                        <th>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                            <ion-icon name="star-half-outline"></ion-icon>
+                        </th>
+                        <th>
+                            No sabe
+                        </th>
+                        <th>
+                            No responde
+                        </th>
+                        <th>
+                            Total Votantes
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>Mision de Rescate</th>
+                            <th>5</th>
+                            <th>25</th>
+                            <th>50</th>
+                            <th>150</th>
+                            <th>200</th>
+                            <th>3</th>
+                            <th>2</th>
+                            <th>435</th>
+                        </tr>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>Rapido y Furioso 9 Hobs Vs Shaw
+                            </th>
+                            <th>15</th>
+                            <th>25</th>
+                            <th>100</th>
+                            <th>250</th>
+                            <th>501</th>
+                            <th>5</th>
+                            <th>1</th>
+                            <th>897</th>
+                        </tr>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>La LLorona</th>
+                            <th>50</th>
+                            <th>25</th>
+                            <th>50</th>
+                            <th>154</th>
+                            <th>213</th>
+                            <th>1</th>
+                            <th>1</th>
+                            <th>494</th>
+                        </tr>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>Piratas del Caribe El Perla Negra
+                            </th>
+                            <th>5</th>
+                            <th>25</th>
+                            <th>0</th>
+                            <th>150</th>
+                            <th>3140</th>
+                            <th>0</th>
+                            <th>3</th>
+                            <th>3323</th>
+                        </tr>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>Los ilusionistas</th>
+                            <th>2</th>
+                            <th>28</th>
+                            <th>53</th>
+                            <th>157</th>
+                            <th>200</th>
+                            <th>1</th>
+                            <th>0</th>
+                            <th>441</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="ultimas" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <th>
+                            Ultimas
+                        </th>
+                        <th>
+                            Fecha
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>Mision de Rescate</th>
+                            <th>2020</th>
+                        </tr>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>Rápidos y furiosos: Hobbs & Shaw
+                            </th>
+                            <th>2019</th>
+                        </tr>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>La maldición de La Llorona</th>
+                            <th>2019</th>
+                        </tr>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>Los ilusionistas</th>
+                            <th>2013</th>
+                        </tr>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>Piratas del Caribe: La Maldicion
+                                del Perla</th>
+                            <th>2003</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="masvistas" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <th>
+                            Peliculas
+                        </th>
+                        <th>
+                            Visualizaciones
+                        </th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>Mision de Rescate</th>
+                            <th>5523</th>
+                        </tr>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>Rápidos y furiosos: Hobbs & Shaw
+                            </th>
+                            <th>2349</th>
+                        </tr>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>La maldición de La Llorona</th>
+                            <th>1235</th>
+                        </tr>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>Los ilusionistas</th>
+                            <th>578</th>
+                        </tr>
+                        <tr>
+                            <th><ion-icon name="film-outline" class="icon"></ion-icon>Piratas del Caribe: La Maldicion
+                                del Perla</th>
+                            <th>203</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
     </div>
     <footer class="footer">
         <div class="row">

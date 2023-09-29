@@ -48,16 +48,51 @@
     <div class="container">
         <h2>Contacto</h2>
         <br />
-        <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt porta convallis. Pellentesque
-            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum id molestie
-            enim, in luctus ex. Pellentesque lorem libero, volutpat eget tempor id, consectetur nec dolor. Aliquam at
-            varius ligula, nec fermentum nunc. Nam tincidunt molestie sapien id placerat. Praesent vitae ipsum sed ex
-            sollicitudin dictum. Ut iaculis nunc non mauris pharetra posuere. Nulla a dui in justo viverra ullamcorper.
-            Nullam elementum efficitur odio, et fermentum ligula tincidunt eu. Sed sodales ullamcorper tellus nec
-            blandit. Integer et venenatis nulla. Aliquam eu sagittis nisi, sed sagittis nisi. Fusce scelerisque neque
-            quis dapibus tincidunt.
-        </span>
+        <h1>Dejame tu comentario</h1>
+        <form>
+            <div class="form-row d-flex">
+                <div class="form-group col-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group col-6">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-sm-12">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                </div>
+            </div>
+            <div class="form-row d-flex">
+                <div class="form-group col-sm-6">
+                    <label for="domicilio">Domicilio</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su domicilio">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="floatingSelectDisabled">Ciudad</label>
+                    <select class="form-select" id="floatingSelectDisabled" aria-label="Floating label disabled select example">
+                        <option selected>Cali</option>
+                        <option value="1">Bogota</option>
+                        <option value="2">Medellin</option>
+                        <option value="3">Santa Marta</option>
+                      </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="comentario">Comentario</label>
+                <textarea id="comentario" class="form-control" rows="10"></textarea>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">Quiero que me contacten</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-outline-primary">Enviar</button>
+        </form>
     </div>
     <footer class="footer">
         <div class="row">

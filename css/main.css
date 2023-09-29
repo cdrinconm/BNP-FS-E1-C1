@@ -43,3 +43,7 @@ ion-icon{
 .active{
     text-decoration: underline;
 }
+
+thead{
+    background-color: #212529;
+}
