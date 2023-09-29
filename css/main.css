@@ -1,13 +1,45 @@
+body{
+    background-color: rgb(202, 202, 202);
+}
+
+.navbar-collapse{
+    background-color: #212529;
+}
+
 .jumbotron{
-    background-color: yellow;
+    background-color: gray;
     color: black;
+    margin-top: 50px;
+    height: 100px;
 }
 
 .footer{
-    background-color: yellow;
-    color: black;
+    background-color: gray;
+    color: white;
+    height: 200px;
 }
 
 button{
     background-color: beige;
+    overflow: auto;
+}
+
+nav{
+    height: 50px;
+}
+
+h1{
+    color: white;
+}
+
+ion-icon{
+    padding-right: 5px;
+}
+
+.movies{
+    margin: 80px 0px;
+}
+
+.active{
+    text-decoration: underline;
 }
