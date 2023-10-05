@@ -1,0 +1,68 @@
+@bodycolor: rgb(202, 202, 202);
+@blackcolor: #212529;
+
+@yellow: #fafa16;
+@red: #ef1313;
+@green: #18f523;
+
+.margen (@top, @bottom){
+    margin: @top @bottom;
+}
+
+.heigth (@size){
+    height: @size;
+}
+
+body{
+    background-color: @bodycolor;
+}
+
+.navbar-collapse{
+    background-color: @blackcolor;
+}
+
+.jumbotron{
+    background-color: @green;
+    color: black;
+    margin-top: 50px;
+    .heigth(100px);
+}
+
+.footer{
+    background-color: gray;
+    color: white;
+    .heigth(200px);
+}
+
+button{
+    background-color: beige;
+    overflow: auto;
+}
+
+nav{
+    .heigth(50px);
+}
+
+h1{
+    color: white;
+}
+
+ion-icon{
+    padding-right: 5px;
+}
+
+.movies{
+    .margen(80px,0px);
+}
+
+.active{
+    text-decoration: underline;
+}
+
+thead{
+    background-color: @blackcolor;
+}
+
+.card-img-top2{
+    width: 200px;
+}
